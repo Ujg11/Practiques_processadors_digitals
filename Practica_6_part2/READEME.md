@@ -41,6 +41,9 @@ void loop() {
 
 ### Describir la salida por el puerto série
 
+La sortida del port serie son el numero de la targeta que hi passem amb un salt de linea. Cada vegada que hi passem una targeta apareix el seu numero
 
 ### Explciar el funcionamiento
 
+El codi consisteix en conectar el MFRC522 que és un lector de targetes al esp32. D'aquesta manera aconseguim veure els ID de les targetes i amb el bucle de la linea 
+29 separem els nombres amb base hexadecimal  i hi introdueix un 0 o un espai segons calgui.
