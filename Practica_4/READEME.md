@@ -54,7 +54,7 @@ void handle_root() {
  server.send(200, "text/html", HTML);
 }
 ```
-
+**Imatge de la Web:**
 
 ![Imatge De la web:](Foto_captura_web.png)
 
@@ -83,6 +83,7 @@ delay(20);
 
 ```
 
+**Imatge de la conversa per Bluetooth:**
 ![Imatge conversa bluetooth: ](conversa_bluetooth.jpg)
 
 #### Informe:
