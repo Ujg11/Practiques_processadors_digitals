@@ -51,6 +51,10 @@ void loop()
 
 ```
 
+### Imatge
+
+![](Captura_part_1.png)
+
 ### Informe
 El codi consisteix en enllaçar l'escàner amb la esp32 per entendre el funcionament de les trames I2C. Al executar el codi ens aniran sortint diferents missatges per 
 pantalla indicant com es va realitzant la conexió. D'aquesta manera, quan ens trobi un dispositiu I2C ens dirà en quina adressa es troba. Per altre banda, si no en 
