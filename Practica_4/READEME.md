@@ -53,9 +53,10 @@ String HTML = "<!DOCTYPE html>\
 void handle_root() {
  server.send(200, "text/html", HTML);
 }
-
 ```
-![**Imatge De la web:**](Foto_captura_web.png)
+
+
+![Imatge De la web:](Foto_captura_web.png)
 
 ### Codi de la pràctica B
 
@@ -81,3 +82,9 @@ delay(20);
 }
 
 ```
+
+![Imatge conversa bluetooth: ](conversa_bluetooth.jpg)
+
+#### Informe:
+En aquesta part de la pràctica fem un programa que utilitza el bluetooth de la ESP32. Li diem al wifi el nom que vulguem, en aquest cas O_P i l'enllaçem amb el mòvil.
+Un cop enllaçat, podem tenir un chat entre els dos dispositius com podem veure en la imatge.
