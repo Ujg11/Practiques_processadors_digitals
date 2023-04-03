@@ -40,7 +40,7 @@ void loop() {
 ![Imatge](apagar_led.jpg)
 
 
-### Video del Funcionament:
+### Video del Funcionament
 
 
 ### Informe
