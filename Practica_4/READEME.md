@@ -1,0 +1,83 @@
+# Pràctica 4: WIFI y BLUETOOTH
+
+### Codi de la pràctica A
+
+```
+#include <WiFi.h>
+#include <WebServer.h>
+
+// SSID & Password
+const char* ssid = "nom del wifi";  // Enter your SSID here
+const char* password = "contrasenya del wifi";  //Enter your Password here
+
+WebServer server(80);  // Object of WebServer(HTTP port, 80 is defult)
+
+void setup() {
+ Serial.begin(115200);
+ Serial.println("Try Connecting to ");
+ Serial.println(ssid);
+
+ // Connect to your wi-fi modem
+ WiFi.begin(ssid, password);
+
+ // Check wi-fi is connected to wi-fi network
+ while (WiFi.status() != WL_CONNECTED) {
+ delay(1000);
+ Serial.print(".");
+ }
+ Serial.println("");
+ Serial.println("WiFi connected successfully");
+ Serial.print("Got IP: ");
+ Serial.println(WiFi.localIP());  //Show ESP32 IP on serial
+
+ server.on("/", handle_root);
+
+ server.begin();
+ Serial.println("HTTP server started");
+ delay(100); 
+}
+
+void loop() {
+ server.handleClient();
+}
+
+// HTML & CSS contents which display on web server
+String HTML = "<!DOCTYPE html>\
+<html>\
+<body>\
+<h1>My Primera Pagina con ESP32 - Station Mode &#128522;</h1>\
+</body>\
+</html>";
+
+// Handle root url (/)
+void handle_root() {
+ server.send(200, "text/html", HTML);
+}
+
+```
+![**Imatge De la web:**](Foto_captura_web.png)
+
+### Codi de la pràctica B
+
+```
+#include "BluetoothSerial.h"
+#if !defined(CONFIG_BT_ENABLED) || !defined(CONFIG_BLUEDROID_ENABLED)
+#error Bluetooth is not enabled! Please run `make menuconfig` to and enable it
+#endif
+BluetoothSerial SerialBT;
+void setup() {
+Serial.begin(115200);
+SerialBT.begin("O_P"); //Bluetooth device name
+Serial.println("The device started, now you can pair it with bluetooth!");
+}
+void loop() {
+if (Serial.available()) {
+SerialBT.write(Serial.read());
+}
+if (SerialBT.available()) {
+Serial.write(SerialBT.read());
+}
+delay(20);
+}
+
+```
