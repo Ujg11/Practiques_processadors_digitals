@@ -84,6 +84,8 @@ delay(20);
 ```
 
 **Imatge de la conversa per Bluetooth:**
+
+
 ![Imatge conversa bluetooth: ](conversa_bluetooth.jpg)
 
 #### Informe:
