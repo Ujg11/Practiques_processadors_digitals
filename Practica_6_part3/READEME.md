@@ -2,7 +2,7 @@
 
 ### Codi
 
-```
+```c
 #include <SPI.h>
 #include <MFRC522.h>
 #include <SD.h>
