@@ -98,5 +98,5 @@ void loop() {}
 
 ### Informe
 
-Es tracta d'un codi que genera una imatge en el dispotitiu. Aquest codi és molt visual per entendre el funcionament i canviant els pins que estan representats des de 
+Es tracta d'un codi que genera una imatge en el dispotitiu. Aquest codi és molt visual per entendre el funcionament i canviant els píxels que estan representats des de 
 la linea 20 a la 65 podem veure com canvia la imatge.
