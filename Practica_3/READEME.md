@@ -40,7 +40,10 @@ vTaskDelete( NULL );
 }
 ```
 
-### Describir la salida por el puerto série
+### Describir la salida por el puerto série (Imàtge)
+
+![](Captura_p3_ex1.png)
+
 
 
 
