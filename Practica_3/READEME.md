@@ -4,7 +4,7 @@
 
 Programar el siguiente código:
 
-```
+```c
 void setup()
 {
 Serial.begin(112500);
@@ -52,7 +52,7 @@ El programa consiste en crear una tarea con el nombre "another Task".
 
 Programa que enciende dos leds con tiempos de transición diferentes simultaniamente
 
-```
+```c
 #include <Arduino.h>
 
 int pin_led1 = 23;
