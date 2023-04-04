@@ -74,3 +74,5 @@ void loop() {
 
 ### Informe
 
+Aquest codi serveix per unificar el funcionament dels dos apartats anteriors utilitzant la microSD per guardar les dades de les targetes detectades amb el lector a un
+fitxer. El codi està inacabat i donava algun error de lectura o de velocitat del processador.
