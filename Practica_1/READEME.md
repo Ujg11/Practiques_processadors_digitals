@@ -5,7 +5,7 @@
 ### Codi de la pràctica:
 
 
-```
+```c
 #include <Arduino.h>
 #include <stdio.h>
 
