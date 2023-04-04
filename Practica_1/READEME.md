@@ -40,6 +40,7 @@ void loop() {
 
 ### Diagrama de flujo:
 
+![](Imatge_diagrama_flux.jpeg)
 
 
 
