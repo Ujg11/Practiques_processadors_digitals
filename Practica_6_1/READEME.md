@@ -41,6 +41,8 @@ void loop()
 ### Describir la salida por el puerto série (Foto)
 
 ![](Captura_p6_part1_lecturatargeta.png)
+
+**Dentro del fichero:**
 ![](foto_sortida_p6_1.jpeg)
 
 ### Explciar el funcionamiento
