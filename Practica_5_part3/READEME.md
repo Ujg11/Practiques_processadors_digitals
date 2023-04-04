@@ -1,7 +1,7 @@
 # Practica 5 part 3
 
 ### Codi 
-```
+```c
 #define __DEBUG__
  
 #include <SPI.h>
