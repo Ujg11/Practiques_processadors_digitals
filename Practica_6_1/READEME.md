@@ -2,7 +2,7 @@
 
 ### Codi
 
-```
+```c
 
 #include <SPI.h>
 #include <SD.h>
