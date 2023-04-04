@@ -58,9 +58,7 @@ void handle_root() {
 
 ![Imatge De la web:](Foto_captura_web.png)
 
-#### Informe
-
-
+### Informe:
 Wifi: El codi serveix per crear una pàgina web a partir d’una connexió entre el wifi generat a un dispositiu de la classe i el nostre microprocessador. Després,
 buscant la IP d’un dels dispositius personals de qualsevol alumne, podiem accedir a les pàgines creades per les diferents ESP-32 que hi havia al laboratori.
 
