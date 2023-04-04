@@ -41,8 +41,9 @@ void loop() {
 
 ### Describir la salida por el puerto série
 
-La sortida del port serie son el numero de la targeta que hi passem amb un salt de linea. Cada vegada que hi passem una targeta apareix el seu numero de la forma seguant: Card UID: 66 E6 77 82 (per exemple). Mira el video adjunt:
-https://www.youtube.com/shorts/N3Q9bIEnjAs
+La sortida del port serie son el numero de la targeta que hi passem amb un salt de linea. Cada vegada que hi passem una targeta apareix el seu numero de la forma
+seguant: Card UID: 66 E6 77 82 (per exemple). 
+Mira el video adjunt: [Video](https://www.youtube.com/shorts/N3Q9bIEnjAs)
 
 ### Explciar el funcionamiento
 
