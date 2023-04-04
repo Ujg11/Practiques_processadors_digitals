@@ -1,7 +1,7 @@
 # Pràctica 6 part 2
 
 ### Codi
-```
+```c
 #include <SPI.h>
 #include <MFRC522.h>
 
