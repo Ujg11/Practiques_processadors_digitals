@@ -38,8 +38,10 @@ void loop()
 
 ```
 
-### Describir la salida por el puerto série
+### Describir la salida por el puerto série (Foto)
 
+![](foto_sortida_p6_1.jpeg)
 
 ### Explciar el funcionamiento
-
+A partir del siguiente código accedemos a la microSD y podemos leer un fichero de un nombre determinado. Al declarar la ruta y el nombre del archivo, el programa
+muestra por el puerto série el contenido de este, ya que se trata de un fichero de texto simple.
