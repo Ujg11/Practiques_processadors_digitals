@@ -5,6 +5,10 @@
 Programar el siguiente código:
 
 ```c
+#include <Arduino.h>
+
+void anotherTask( void * parameter );
+
 void setup()
 {
 Serial.begin(112500);
@@ -49,7 +53,9 @@ vTaskDelete( NULL );
 
 ### Explicar el funcionamiento
 
-El programa consiste en crear una tarea con el nombre "another Task". 
+El programa serveix per veure que hi ha dos processos executant-se a la vegada, un dins el loop i l’altre des de la funció “anotherTask” que s’executra al setup.
+Des de l’impressió sèrie podem veure com es van intercalant els missatges que treu cada funció, a diferència d’exemples anteriors utilitzant funcions com “delay”. 
+
 
 # Ejercicio Práctico 2
 
