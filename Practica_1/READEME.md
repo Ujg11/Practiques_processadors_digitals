@@ -48,7 +48,7 @@ void loop() {
 
 ### Diagrama de tiempo:
 
-
+![](Imatge_diagrama_temps.jpeg)
 
 
 
@@ -56,6 +56,8 @@ void loop() {
 
 
 ### En el programa que se ha realizado cual es el tiempo libre que tiene el procesador?
+
+El tiempo libre del procesador es de 500ms, que es el tiempo de delay entre encendido/apagado del led. Sin embargo, nuestro procesador no puede hacer ninguna otra funcion mientrastanto debido a que está ocupado esperando ese tiempo.
 
 
 
