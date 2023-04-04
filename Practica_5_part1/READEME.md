@@ -2,7 +2,7 @@
 
 ## Codi
 
-```
+```c
 #include <Arduino.h>
 #include <Wire.h>
 void setup()
